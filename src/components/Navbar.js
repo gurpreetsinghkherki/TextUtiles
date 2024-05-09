@@ -18,7 +18,7 @@ function Navbar(props) {
                 {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to="/about">ABOUT</Link>
               </li>
             </ul>
               

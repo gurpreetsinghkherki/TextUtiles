@@ -63,7 +63,7 @@ import React, {useState} from 'react'
                  <button disabled={text.length===0} className='btn btn-success mx-2 my-2' onClick={handleUpclick1}>Convert to Lowercase</button>
                  <button disabled={text.length===0} className='btn btn-danger  mx-2 my-2' onClick={handleClearclick}>Reset</button>
                  <button disabled={text.length===0} className='btn btn-primary  mx-2 my-2' onClick={handleCopy}>Copy Text</button>
-                 <button  disabled={text.length===0}className='btn btn-success  mx-2 my-2' onClick={handleExtraSpaces}>Remove Extra spaces</button>
+                 <button  disabled={text.length===0} className='btn btn-success  mx-2 my-2' onClick={handleExtraSpaces}>Remove Extra spaces</button>
 
              </div>
              <div className="container" style={{color: props.mode==='dark'?'white':'#042743'}} >

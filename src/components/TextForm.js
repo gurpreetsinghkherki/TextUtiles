@@ -56,7 +56,7 @@ import React, {useState} from 'react'
              <div className='container' style={{color:props.mode==='dark' ? 'white': '#042743'}}>
                  <h1>{props.heading}</h1>
                  <div className="mb-3" >
-                     <label htmlFor="myBox" className="form-label">Text Here</label>
+                     <label htmlFor="myBox" className="form-label">Text Below</label>
                      <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor: props.mode === 'dark' ? '#042743':'white', color:props.mode==='dark' ? 'white': '#042743'}} id="myBox" rows="8"></textarea>
                  </div>
                  <button disabled={text.length===0} className='btn btn-primary mx-2 my-2' onClick={handleUpclick2}>Convert to Uppercase</button>

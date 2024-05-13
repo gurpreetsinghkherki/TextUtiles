@@ -31,12 +31,7 @@ function App() {
       document.body.style.backgroundColor = '#042743';
       showAlert("Dark mode has been enabled", "success");
       document.title = 'TextUtils - Dark Mode';
-      // setInterval(()=>{
-      //   document.title = 'Install TextUtils Now';
-      // }, 2000);
-      // setInterval(()=>{
-      //   document.title = 'Install TextUtils Now';
-      // }, 1500);
+     
     }
     else {
       setMode('light');
@@ -51,8 +46,6 @@ function App() {
 
 
     <>
-
-      {/* <Navbar/> */}
       <Router>
         <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
@@ -65,11 +58,6 @@ function App() {
 
         </div>
       </Router>
-      {/* <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
-        <Alert alert={alert} />
-        <div className='container my-3'>
-      <TextForm showAlert={showAlert} heading="Enter the text to analyze" mode={mode} />
-      </div> */}
 
     </>
   );
